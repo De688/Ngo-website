@@ -1,0 +1,68 @@
+.main-navbar-component {
+  height: 35px;
+  width: 100%;
+  display: flex;
+
+  justify-content: flex-end;
+  background-color: rgb(190, 22, 22);
+}
+.navbar-logini-logo {
+  display: flex;
+  padding-right: 20px;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+.navbar-logini-logo:hover {
+  cursor: pointer;
+}
+.sign-in-logo {
+  font-size: 20px;
+}
+.sign-in {
+  padding-left: 5px;
+}
+.signinlink {
+  text-decoration: none;
+  color: white;
+}
+.signinlink:hover {
+  color: rgb(204, 197, 197);
+}
+.logedininfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100px;
+  height: 100%;
+  background-color: transparent;
+}
+.userimage {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding-right: 10px;
+}
+.username {
+  font-size: 16px;
+  padding-right: 10px;
+  color: rgb(214, 214, 214);
+}
+.logoutbtn {
+  width: 90px;
+  height: 90%;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: rgb(206, 206, 206);
+}
+.logoutbtn:hover {
+  background-color: rgb(189, 180, 180);
+}
+@media (max-width: 600px) {
+  .main-navbar-component {
+    display: none;
+  }
+}

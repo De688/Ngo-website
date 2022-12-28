@@ -1,0 +1,91 @@
+.Textwithimagecomponent-main-container {
+  width: 100%;
+  min-height: 50vh;
+  box-shadow: rgba(233, 95, 95, 0.219) 0px 3px 8px;
+
+  background-color: rgba(255, 221, 221, 0.281);
+}
+.Textwithimagecomponent-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.Textwithimagecomponent-main-container p {
+  padding: 10px 50px;
+  text-align: center;
+  font-size: 20px;
+}
+.challengeslist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.challengeslist1 {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  display: flex;
+
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.challengeslist1 img {
+  max-width: 70px;
+  height: 70px;
+  background-size: cover;
+  padding-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foodtext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+  padding-left: 40px;
+  font-weight: bold;
+  color: rgb(99, 99, 99);
+}
+@media (max-width: 600px) {
+  .Textwithimagecomponent-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .Textwithimagecomponent-main-container p {
+    padding: 0px 5px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .challengeslist1 img {
+    max-width: 70px;
+    height: 70px;
+    background-size: cover;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .foodtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    padding-left: 10px;
+    font-weight: bold;
+    color: rgb(87, 87, 87);
+  }
+  .Textwithimagecomponent-main-container {
+    width: 100%;
+    min-height: 50vh;
+    background-color: rgba(209, 175, 175, 0.233);
+  }
+}

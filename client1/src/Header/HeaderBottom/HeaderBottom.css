@@ -1,0 +1,120 @@
+.main-HeaderBottom {
+  min-height: 50px;
+  width: 100%;
+  background-color: transparent;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding-top: 20px;
+}
+.pages {
+  min-height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 30px;
+  overflow-x: scroll;
+}
+.pages::-webkit-scrollbar {
+  display: none;
+}
+
+.pages-map {
+  cursor: pointer;
+  font-size: 20px;
+  justify-content: space-around;
+  font-weight: bold;
+  display: flex;
+  position: relative;
+  min-height: 40px;
+  width: 150px;
+  padding-left: 10px;
+  margin-right: 30px;
+  border-radius: 20px;
+  color: rgb(31, 28, 28);
+  background-color: transparent;
+}
+.pages-map:hover {
+  color: rgb(189, 8, 8);
+}
+.span {
+  height: 20px;
+
+  display: flex;
+  justify-content: flex-end;
+}
+.more {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+  transform: rotate(270deg);
+  transition: all 0.2s ease-in-out;
+}
+.more2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  transform: rotate(360deg);
+  transition: all 0.2s ease-in-out;
+}
+.more3 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  transform: rotate(360deg);
+  transition: all 0.2s ease-in-out;
+}
+.contact-button {
+  width: 90px;
+  height: 40px;
+  margin-right: 20px;
+  font-size: 18px;
+  background-color: rgb(189, 25, 25);
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+.contact-button:hover {
+  background-color: rgb(240, 62, 62);
+  cursor: pointer;
+}
+.hover-link {
+  position: absolute;
+  width: 170px;
+  background-color: rgb(209, 209, 209);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.44) 0px 3px 8px;
+}
+.hover-link:hover {
+  border-radius: 5px;
+}
+.hover-links-hidden {
+  display: none;
+}
+.hover-link-show {
+  width: 170px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 40px;
+  border-bottom: 1px solid rgb(189, 188, 188);
+  z-index: 9;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.hover-link-show:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: rgb(238, 238, 238);
+  border-radius: 5px;
+}
+.over-links-li {
+  text-decoration: none;
+  width: 150px;
+  color: black;
+  padding-left: 10px;
+}
+@media (max-width: 600px) {
+  .main-HeaderBottom {
+    display: none;
+  }
+}
